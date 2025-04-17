@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1824FDDF-10AF-456A-94DE-5F54F3C45EC9}|Ecommerce.AppHost\\Ecommerce.AppHost.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\microservices\\ecommerce\\ecommerce.apphost\\kafka.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1824FDDF-10AF-456A-94DE-5F54F3C45EC9}|Ecommerce.AppHost\\Ecommerce.AppHost.csproj|solutionrelative:ecommerce.apphost\\kafka.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{025006A0-D49C-483A-A6D4-44B9C4E3D93A}|Ecommerce.Model\\Ecommerce.Model.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\microservices\\ecommerce\\ecommerce.model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{025006A0-D49C-483A-A6D4-44B9C4E3D93A}|Ecommerce.Model\\Ecommerce.Model.csproj|solutionrelative:ecommerce.model\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\microservices\\ecommerce\\ecommerce.productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|solutionrelative:ecommerce.productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\microservices\\ecommerce\\ecommerce.productservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|solutionrelative:ecommerce.productservice\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|c:\\users\\mohamed.aly\\desktop\\mohamed aly\\study\\microservices\\ecommerce\\ecommerce.productservice\\kafka\\kafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDD1A2-4238-4EC8-ADC9-C39122D0DA41}|Ecommerce.ProductService\\Ecommerce.ProductService.csproj|solutionrelative:ecommerce.productservice\\kafka\\kafkaconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.Model\\ProductModel.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Model\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.Model\\ProductModel.cs",
+              "RelativeToolTip": "Ecommerce.Model\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:14:04.177Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Ecommerce.ProductService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Ecommerce.ProductService\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:05:26.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Data\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce.ProductService\\Data\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Data\\ProductDbContext.cs",
+              "RelativeToolTip": "Ecommerce.ProductService\\Data\\ProductDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T08:05:21.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kafka.yml",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.AppHost\\Kafka.yml",
+              "RelativeDocumentMoniker": "Ecommerce.AppHost\\Kafka.yml",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.AppHost\\Kafka.yml",
+              "RelativeToolTip": "Ecommerce.AppHost\\Kafka.yml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAA4wAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-16T07:10:48.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KafkaConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Kafka\\KafkaConsumer.cs",
+              "RelativeDocumentMoniker": "Ecommerce.ProductService\\Kafka\\KafkaConsumer.cs",
+              "ToolTip": "C:\\Users\\mohamed.aly\\Desktop\\Mohamed Aly\\study\\microservices\\Ecommerce\\Ecommerce.ProductService\\Kafka\\KafkaConsumer.cs",
+              "RelativeToolTip": "Ecommerce.ProductService\\Kafka\\KafkaConsumer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T06:48:11.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

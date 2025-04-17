@@ -1,0 +1,25 @@
+﻿@page "/products"
+@using Ecommerce.Model
+@inject HttpClient http
+<h3>ProductList</h3>
+<div class="container">
+	@foreach (var product in products)
+	{
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">@product?.Name</h5>
+				<p class="card-text">@product?.Price</p>
+				<p class="card-text">@product?.Quantity</p>
+				<a href="/cart/@product.Id" class="btn btn-primary">Buy</a>
+			</div>
+		</div>
+	} 
+</div>
+@code {
+	private List<ProductModel?> products = new List<ProductModel>();
+	protected override async Task OnInitializedAsync()
+	{
+		products = await http.GetFromJsonAsync<List<ProductModel>>("https://localhost:7026/api/product");
+		await base.OnInitializedAsync();
+	}
+}

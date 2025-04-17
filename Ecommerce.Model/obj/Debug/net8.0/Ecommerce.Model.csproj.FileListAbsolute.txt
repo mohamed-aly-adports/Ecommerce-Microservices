@@ -1,0 +1,11 @@
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\bin\Debug\net8.0\Ecommerce.Model.deps.json
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\bin\Debug\net8.0\Ecommerce.Model.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\bin\Debug\net8.0\Ecommerce.Model.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.AssemblyInfoInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.AssemblyInfo.cs
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.csproj.CoreCompileInputs.cache
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\refint\Ecommerce.Model.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\Ecommerce.Model.pdb
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Model\obj\Debug\net8.0\ref\Ecommerce.Model.dll
