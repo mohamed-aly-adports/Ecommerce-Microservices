@@ -30,8 +30,7 @@
 	protected override async Task OnInitializedAsync()
 	{
 		order.ProductId = ProductId;
-		product = await http.GetFromJsonAsync<ProductModel>(
-		$"https://localhost:7026/api/product/{ProductId}");
+		product = await http.GetFromJsonAsync<ProductModel>($"https://localhost:7026/api/product/{ProductId}");
 		await base.OnInitializedAsync();
 	}
 	public async Task CreateOrder()
