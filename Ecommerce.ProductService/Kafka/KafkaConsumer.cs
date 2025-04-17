@@ -9,34 +9,43 @@ namespace Ecommerce.ProductService.Kafka
     {
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            throw new NotImplementedException();
+            return Task.Run(() =>
+            {
+                _ = ConsumeAsync("order-topic", stoppingToken);
+            },stoppingToken);
         }
 
         public async Task ConsumeAsync(string topic, CancellationToken stoppingToken)
         {
-            var config = new ConsumerConfig
+            try
             {
-                GroupId = "order-group",
-                BootstrapServers = "localhost:9892",
-                AutoOffsetReset = AutoOffsetReset.Earliest
-            };
-
-            using var consumer = new ConsumerBuilder<string, string>(config).Build();
-            consumer.Subscribe(topic);
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                var consumeResult = consumer.Consume(stoppingToken);
-                var order = JsonConvert.DeserializeObject<OrderModel>(consumeResult.Message.Value);
-                using var scope = scopeFactory.CreateScope();
-                var dbContext = scope.ServiceProvider.GetRequiredService<ProductDbContext>();
-                var product =  await dbContext.Products.FindAsync(order.ProductId);
-                if (product != null)
+                var config = new ConsumerConfig
                 {
-                    product.Quantity -= order.Quantity;
-                    await dbContext.SaveChangesAsync();
-                } 
+                    GroupId = "order-group",
+                    BootstrapServers = "localhost:9892",
+                    AutoOffsetReset = AutoOffsetReset.Earliest
+                };
+
+                using var consumer = new ConsumerBuilder<string, string>(config).Build();
+                consumer.Subscribe(topic);
+                while (!stoppingToken.IsCancellationRequested)
+                {
+                    var consumeResult = consumer.Consume(stoppingToken);
+                    var order = JsonConvert.DeserializeObject<OrderModel>(consumeResult.Message.Value);
+                    using var scope = scopeFactory.CreateScope();
+                    var dbContext = scope.ServiceProvider.GetRequiredService<ProductDbContext>();
+                    var product = await dbContext.Products.FindAsync(order.ProductId);
+                    if (product != null)
+                    {
+                        product.Quantity -= order.Quantity;
+                        await dbContext.SaveChangesAsync();
+                    }
+                }
+                consumer.Close();
             }
-            consumer.Close();
+            catch (Exception ex)
+            { 
+            } 
         }
     }
 }

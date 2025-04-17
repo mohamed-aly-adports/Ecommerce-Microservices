@@ -23,9 +23,21 @@ namespace Ecommerce.OrderService.Kafka
             _producer = new ProducerBuilder<string, string>(config).Build();
         }
         //
-        public /*async */Task  ProduceAsync(string topic, Message<string, string> message)
+        //public /*async */Task  ProduceAsync(string topic, Message<string, string> message)
+        //{
+        //    return  /*await*/ _producer.ProduceAsync(topic,message);
+        //}
+
+        public async Task ProduceAsync(string topic, Message<string, string> message)
         {
-            return  /*await*/ _producer.ProduceAsync(topic,message);
+            try
+            {
+                var test = await _producer.ProduceAsync(topic, message);
+            }
+            catch (ProduceException<string, string> ex)
+            {
+                Console.WriteLine($"Error producing message: {ex.Error.Reason}");
+            }
         }
     }
 }

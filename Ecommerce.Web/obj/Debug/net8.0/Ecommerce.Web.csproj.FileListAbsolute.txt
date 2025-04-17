@@ -35,3 +35,4 @@ C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce
 C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Web\obj\Debug\net8.0\Ecommerce.Web.pdb
 C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Web\obj\Debug\net8.0\Ecommerce.Web.genruntimeconfig.cache
 C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Web\obj\Debug\net8.0\ref\Ecommerce.Web.dll
+C:\Users\mohamed.aly\Desktop\Mohamed Aly\study\microservices\Ecommerce\Ecommerce.Web\obj\Debug\net8.0\Ecommerce.Web.sourcelink.json
